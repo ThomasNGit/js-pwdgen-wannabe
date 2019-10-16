@@ -17,4 +17,4 @@ console.log(colore);
 var pwd = name + cognome + colore + "19";
 
 // creazione stringa otput
-document.getElementById('password').innerHTML = "Ciao, la tua insicurissima password è: " + pwd;
+document.getElementById('password').innerHTML = "Ciao " + name + ", la tua insicurissima password è: " + pwd;
